@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Atkinson Hyperlegible Next", serif;
+    
+}
+.outer{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left,#3ed8ff,#a8f5ff);
+}
+.inner{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+    left: 5%;
+    /* transform: translate(-50%); */
+    background: linear-gradient(to top left,#ffffffff,#ffffff33);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #2773a5;
+    z-index: 2;
+}
+.Signup h1{
+    font-size: 2.5rem;
+    color: #212121;
+}
+.Signup p{
+    font-size: 0.95rem;
+    color: #555;
+    margin-top: 5px;
+}
+.SBody{
+    margin: 10px 0;
+}
+.SBody p{
+    margin: 10px 0;
+}
+.SBody p label{
+    display: block;
+    font-weight: bold; 
+}
+.SBody p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px; 
+}
+.SBody p input[type="submit"]{
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.SBody p input[type="submit"]:hover{
+    background-color: #2773a5;
+}
+.foot p{
+    color: #555;
+    text-align: center;
+}
+.foot p a{
+    columns: #2773a5;
+}
